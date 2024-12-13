@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--
+      Final Project
+       Author: katie sandoval
+       Date:  12/4/2024
+
+       Filename:Enter Raffle Form
+       Supporting files: modernizr-1.5.js
+    -->
+
+    <meta charset="utf-8" />
+    <script src="modernizr-1.5.js"></script>
+    <title> Enter Raffle</title>
+    
+    <link rel="stylesheet" href="FinalProjectStylesheet.css">
+
+</head>
+
+<body>
+
+
+  <header>
+
+		<img src="headerimg.jpeg" alt="hello kitty wiht friends" height="80">
+		<hgroup>
+			<h1>Hello Kitty and Friends </h1>
+			<h2>Learn all about Hello Kitty and her adorable friends!</h2>
+		</hgroup>
+</header>
+
+<nav class="horizontal">
+         <ul>
+
+             <li>
+                <a href="FinalHTML.html"
+                   target="_blank">Home</a>
+            </li>
+
+            <li>
+                <a href="Shop"
+                   target="_blank">Shop</a>
+            </li>
+
+            <li>
+                <a href="https://www.sanrio.com/blogs/hellokittycafe/hello-kitty-grand-cafe"
+                   target="_blank">Cafe</a>
+            </li>
+
+            <li>
+                <a href="RafflePage.html"
+                   target="_blank">Enter Raffle</a>
+            </li>
+
+            <li>
+                <a href="https://www.youtube.com/@HelloKittyandFriends"
+                   target="_blank">TV Show</a>
+            </li>
+
+            
+        </ul>
+
+    </nav>
+    
+     <h1>Enter Raffle to win limited edition Sanrio Merch </h1> <img src="kuromigif.gif" alt="kuromigif" height="80" style="float:right;width:80px;height:90px;">
+   
+     
+    <h2> Make sure to ask parent permisson before entering!</h2>
+    
+    	<form >
+    		<fieldset>
+	        	<legend>Your Infomation</legend>
+	        	<label for="email">E-Mail:</label>
+	        	<input type="email" name="email" id="email" autofocus required><br>
+	        	<label for="first_name">First Name:</label>
+				<input type="text" name="first_name" id="first_name" required><br>
+				<label for="last_name">Last Name:</label>
+				<input type="text" name="last_name" id="last_name" required><br>
+				<label for="address">Address:</label>
+				<input type="text" name="address" id="address"><br>
+				<label for="city">City:</label>
+				<input type="text" name="city" id="city" required><br>
+				<label for="state">State:</label>
+				<input type="text" name="state" id="state" required maxlength="2" placeholder="2-character code"><br>
+				<label for="zip">ZIP Code:</label>
+				<input type="text" name="zip" id="zip" required placeholder="5 or 9 digits" 
+				       pattern="^\d{5}(-\d{4})?$" title="Either 5 or 9 digits"><br>
+				<label for="phone">Phone Number:</label>
+				<input type="tel" name="phone" id="phone" placeholder="999-999-9999" 
+				       pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Must be 999-999-999 format"><br>
+               <label for="Favorite character Name">Your Favorite Character:</label>
+				<input type="text" name="character_name" id="character_name" required><br>
+			</fieldset>
+        
+            <fieldset id="buttons">
+				<legend>Submit Entry!</legend>
+				<label>&nbsp;</label>
+				<input type="submit" id="submit" value="Submit">
+				<input type="reset" id="reset" value="Reset Fields"><br>
+			</fieldset>
+		</form>
+	</section>
+</body>
+</html>
